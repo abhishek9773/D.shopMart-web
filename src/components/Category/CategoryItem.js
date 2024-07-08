@@ -35,18 +35,18 @@ const data = [
     count: "8 Product",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUusmMIKXUJemtKUreospeVfp7MjG9bmbjnA&s",
   },
-  {
-    id: 7,
-    name: "mobile",
-    count: "8 Product",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUusmMIKXUJemtKUreospeVfp7MjG9bmbjnA&s",
-  },
-  {
-    id: 8,
-    name: "mobile",
-    count: "8 Product",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUusmMIKXUJemtKUreospeVfp7MjG9bmbjnA&s",
-  },
+  // {
+  //   id: 7,
+  //   name: "mobile",
+  //   count: "8 Product",
+  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUusmMIKXUJemtKUreospeVfp7MjG9bmbjnA&s",
+  // },
+  // {
+  //   id: 8,
+  //   name: "mobile",
+  //   count: "8 Product",
+  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUusmMIKXUJemtKUreospeVfp7MjG9bmbjnA&s",
+  // },
 ];
 
 export default data;

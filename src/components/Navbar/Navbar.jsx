@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <div className="container  hidden lg:block">
       <div className="flex justify-between items-center pt-8">
-        <h1 className="font-bold text-2xl">
-          <spen className="text-3xl text-red-500 ">D.</spen>flipkard
+        <h1 className="font-bold text-3xl">
+          <spen className="text-5xl text-red-500 ">D.</spen>flipkard
         </h1>
         <div className="relative w-full max-w-[500px]">
           <input
