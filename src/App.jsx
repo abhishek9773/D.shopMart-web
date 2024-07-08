@@ -6,6 +6,8 @@ import Category from "./components/Category/Category";
 import ProductArea from "./components/Product/ProductArea";
 import ProductList from "./data/ProductList";
 import ProductList2 from "./data/ProductList2";
+import Blog from "./components/Blog/Blog";
+import SupportCurrency from "./components/SupportCurrency/SupportCurrency";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Category />
         <ProductArea ProductList={ProductList} />
         <ProductArea ProductList={ProductList2} />
+        <Blog />
+        <SupportCurrency />
       </div>
     </div>
   );
