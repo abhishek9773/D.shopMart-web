@@ -5,6 +5,7 @@ import CurrencyCard from "./CurrencyCard";
 const SupportCurrency = () => {
   return (
     <div className="container pt-16 pb-16 ">
+      <hr />
       <p className="font-bold text-3xl pb-5">
         <spen className="text-red-500">Payment </spen>Our Website
         <spen className="text-green-500"> Support </spen>

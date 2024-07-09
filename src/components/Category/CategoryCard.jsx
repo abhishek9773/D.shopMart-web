@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
-const CategoryCard = ({ img, name, count }) => {
+const CategoryCard = ({ img, name, count, discount }) => {
   return (
     <div>
       <div className="border border-gray-200 hover:border-gray-300 hover:scale-105 transition-transform rounded-lg">
@@ -15,12 +15,15 @@ const CategoryCard = ({ img, name, count }) => {
                 ))}
                 <AiOutlineStar />
               </div>
-              <p className="font-bold text-gray-400/50 text-sm">4.5 starts</p>
-              <p className="underline text-sm cursor-pointer">816 reviews</p>
+              <div className="flex gap-2">
+                <p className="font-bold text-gray-400/50 text-sm">4.5 starts</p>
+                <p className="underline text-sm cursor-pointer">816 reviews</p>
+              </div>
+              <div className="font-bold text-green-600">{discount}</div>
             </div>
             <p className="text-gray-500">{count}</p>
           </div>
-          <img className="w-[100px]" src={img} alt={name} />
+          <img className="w-[100px] rounded-lg" src={img} alt={name} />
         </div>
       </div>
     </div>

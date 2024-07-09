@@ -4,7 +4,6 @@ import { IoIosSearch } from "react-icons/io";
 import { TbWalletOff } from "react-icons/tb";
 
 const Navbar = () => {
-  const [isConnect, setIsConnect] = useState("false");
   return (
     <div className="container  hidden lg:block">
       <div className="flex justify-between items-center pt-8">
@@ -22,7 +21,7 @@ const Navbar = () => {
             size={20}
           />
         </div>
-        <div className=" flex items-center justify-between bg-slate-300 hover:bg-slate-400 py-2 rounded px-5 gap-2 cursor-pointer">
+        <div className=" flex items-center justify-between bg-slate-300 hover:bg-slate-400 py-2 rounded-full px-5 gap-2 cursor-pointer">
           <FaWallet className="cursor-pointer" />
           <button className="">Connect your wallet</button>
         </div>
